@@ -8,3 +8,24 @@
 // java script --> Dynamic type lanuage 
 
 
+// const score  = 100
+// const scoreValue = 100.3;
+// const isLogged = false;
+
+// const outsideTemp = null
+
+// let userEmail;
+
+const heroes = ["shaktiman","naagraj","doga"]
+let myobj= {
+    name : "Umank",
+    age : 22,
+
+};
+
+const myfunct = function() {
+    console.log("Hello World");
+    
+}
+
+console.log(typeof heroes);
