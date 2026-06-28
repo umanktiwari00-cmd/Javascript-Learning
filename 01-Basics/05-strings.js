@@ -34,3 +34,12 @@ console.log(url.includes('Umank')); //true or false if this is present oor not
 
 console.log(gameName.split('-')); // it splites the string according to parameter and present us as in the form of array.
 
+let str1 = "UmankTiwari";
+console.log(str1.startsWith("Umank")); // returns true or false
+console.log(str1.endsWith("Tiwari"));
+
+
+console.log(str1.lastIndexOf("a"));
+
+
+console.log("Hi".repeat(3));
