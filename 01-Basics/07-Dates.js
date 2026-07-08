@@ -29,3 +29,5 @@ console.log(newDate.getMonth());   // provide 0 as jan
 newDate.toLocaleString('default',{
     weekday : "long"
 })
+
+

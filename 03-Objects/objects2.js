@@ -58,3 +58,10 @@ console.log(Object.entries(tinder));
 
 console.log(tinder.hasOwnProperty('isLoggedIn'));
 
+
+// objects.freeze to do any changes
+
+
+// objects.seal() we can't add new property but modify existing one 
+
+
