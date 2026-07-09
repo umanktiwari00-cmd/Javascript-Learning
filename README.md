@@ -18,3 +18,9 @@ Steps : 1.Global Execution
                                                     ----------->Undefined --------->
                                                                                     Function defination 
                                                                                                         --> call function
+#for Each function Execution there should always be a variable environment + Execution thread
+
+# In the memory phase there is empty undefined  variable holder will be created after that Execution Context
+# After the use of function the execution context will be deleted
+
+
