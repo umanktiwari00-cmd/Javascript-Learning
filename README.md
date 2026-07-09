@@ -10,3 +10,11 @@ two phases for running
 
 1.Memory Creation Phase
 2.Execution Creation Phase
+
+
+
+Steps : 1.Global Execution
+            ----------------->>>>>>>>> Memory Phase |
+                                                    ----------->Undefined --------->
+                                                                                    Function defination 
+                                                                                                        --> call function
