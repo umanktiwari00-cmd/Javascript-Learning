@@ -28,7 +28,7 @@ console.log(addCalculatePrice(200,400,500));
 
 
 const user = {
-    username  : "Uamnk",
+    ₹username  : "Uamnk",
     price : " 199"
 }
 

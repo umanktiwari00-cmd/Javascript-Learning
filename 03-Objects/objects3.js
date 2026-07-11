@@ -18,3 +18,7 @@ console.log(instructor);
 //     "coursename" : "fvwbilruvgo"
 // }
 
+const name = {
+        UserLogin : "islabelle",
+        userinput : "namelabelled"
+}

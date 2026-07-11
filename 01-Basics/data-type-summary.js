@@ -40,7 +40,7 @@
  let myYouTubeName = "tiwariumank.com";
  let anotherName = myYouTubeName
 
- anotherName = "Chaiorcode";
+ anotherName = "biscuitorcode";
  console.log(anotherName);
  console.log(myYouTubeName);
  
