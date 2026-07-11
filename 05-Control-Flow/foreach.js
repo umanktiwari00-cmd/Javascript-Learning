@@ -42,7 +42,7 @@ const coding = ['js','ruby','cpp','Python','java']
 //     console.log(item);
 //     return item
 // })
-// console.log(values); // undefined 
+// console.log(values); // undefined => it does not return any value but filter do that discussed in next.
 
 
 
