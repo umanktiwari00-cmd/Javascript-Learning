@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body style="background-color: black; color: aliceblue;">
+
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+    
+</body>
+<script>
+    function addLanguage(langName) {
+            const li = document.createElement('li')
+            li.innerHTML = langName
+            document.querySelector('.language').appendChild(li)
+    }
+    addLanguage('Python')
+    addLanguage('Java')
+
+
+    // More Optimised Way to add or list or anything using thifunction 
+    function addOptiLang(langName) { 
+        const li = document.createElement('li') // here we created an empyt list
+        li.appendChild(document.createTextNode(langName)) // in this i have added textnode using appendChild
+        document.querySelector('.language').appendChild(li); // here i have added li in ul with a class of language
+
+    }
+    addOptiLang('Golang')
+    addOptiLang('typescript')
+
+
+    // replacing a element 
+    const Secondlang = document.querySelector('li:nth-child(2)')
+
+    const newli = document.createElement('li')
+    newli.appendChild(document.createTextNode('Mojo')) // newli.textContent = "Mojo"
+    Secondlang.replaceWith(newli)
+
+    //edit by using outer outer Html
+    const firstlang = document.querySelector("li:first-child")
+    firstlang.outerHTML = '<li>TypeScript</li>'
+
+    // remove  the typescript which is at the last 
+    const lastlang = document.querySelector('li:last-child')
+    lastlang.remove()
+
+
+ </script>
+</html>
