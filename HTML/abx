@@ -1,0 +1,37 @@
+one.html:1 Unchecked runtime.lastError: The message port closed before a response was received.
+const myul=document.querySelector('ul')
+undefined
+myul.querySelector('li')
+<li style=​"background-color:​ green;​ padding:​ 10px;​">​…​</li>​
+const turngreen = myul.querySelector('li')
+undefined
+turngreen.style.color.backgroundColor = "Green"
+'Green'
+turngreen.style.backgroundColor = "Green"
+'Green'
+turngreen.style.padding = "10px"
+'10px'
+turngreen.innerText = "Five"
+'Five'
+
+
+
+
+const ah2 = document.querySelectorAll('h2')
+undefined
+ah2.forEach((l) => {
+    l.style.color = "red" })
+undefined
+ah2.forEach((l) => {
+    l.style.color = "black" })
+undefined
+ah2.forEach((l) => {
+    l.style.color = "black",
+        l.style.backgroundColor = "green",
+        l.style.padding = "10px"})
+undefined
+ah2.forEach((l) => {
+    l.style.color = "black",
+        l.style.backgroundColor = "green",
+        l.style.padding = "10px",
+        l.innerText = "Umank"})
