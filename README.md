@@ -4,11 +4,11 @@ This repository contains my JavaScript learning journey, including theory notes,
 
 ⸻
 
-JavaScript Execution Context
+<h3>JavaScript Execution Context </h3>
 
 JavaScript code executes inside an Execution Context.
 
-Types of Execution Context
+<h3>Types of Execution Context </h3>
 
 1. Global Execution Context (GEC)
     * Created when the JavaScript program starts.
