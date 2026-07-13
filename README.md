@@ -1,4 +1,4 @@
-JavaScript Learning
+<h1>JavaScript Learning</h1>
 
 This repository contains my JavaScript learning journey, including theory notes, DOM practice, mini projects, and coding exercises.
 
