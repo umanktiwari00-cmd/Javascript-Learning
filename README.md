@@ -130,6 +130,4 @@ Repository Contents
 
 ⸻
 
-Progress
-
-This repository is updated regularly as I continue learning JavaScript and building mini projects.
+Progress......
