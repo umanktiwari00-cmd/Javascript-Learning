@@ -20,9 +20,34 @@
 <script>
     // Event run in sequence 
     // Events evoke on some Activity.
-    document.getElementById('owl').onclick = function() {
-        alert('Owl Clicked')
-    }
+    // document.getElementById('owl').onclick = function() {
+    //     alert('Owl Clicked')
+    // }
+
+    //  Best Approach
+     // attachEvent() 
+    // jQuery ---> on 
+
+    // Events.......
+    // type,timestamp,default prevented 
+    // target,toElement,srcElement, currentTarget
+    // client position --> clientX , clientY , screenY ,screenX 
+    // alt , ctrlkey ,shift ,keycode
+
+
+    document.getElementById('images').addEventListener('click',function(e){
+    console.log("clicked inside the ul");
+    
+    
+    },false) 
+    document.getElementById('owl').addEventListener('click',function(e){
+    console.log("owl clicked");
+    
+    
+    },false) // meaning of false --> Event Propogation 
+    // Event Bubbling  --> false ,Event capturing
+
+   
 
 
     
