@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+</head>
+<body>
+    <h1>Umank Tiwari</h1>
+        <button id="stop">Stop</button>
+        <script>
+            //Set Timeout --> means after the  given time the function will perform .
+
+            // setTimeout(function(){
+            //     console.log('Umank');
+                
+            // },2000)   // handler a function whose name is not there , 2000 is 2sec
+
+    //   const sayUmank = function() {
+    //     console.log('Umank');
+        
+    //   }
+    //   setTimeout(sayUmank,2000);
+
+
+
+      const chnageText = function() {
+        document.querySelector('h1').innerHTML = "Best js Github repo";
+      }
+        
+      const changeMe = setTimeout(chnageText,2000);
+
+
+    document.querySelector('#stop').addEventListener('click',function(){
+          clearTimeout(changeMe)
+          console.log('stop');
+          
+    })
+
+
+        </script>
+</body>
+</html>
